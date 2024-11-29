@@ -145,10 +145,10 @@
 
         OH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &trans  &trans  &trans  &trans  &trans                             &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                             &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LC(LS(MINUS))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans     &trans    &trans    &trans     &trans             &trans
+                        &trans  &trans  &to 0   &kp LA(LC(ENTER))  &trans  &to 0      &trans    &trans    &trans
             >;
 
             label = "OH";
