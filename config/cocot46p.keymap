@@ -60,7 +60,7 @@
                               &kp LCTRL  &kp LEFT_ALT  &lt 1 SPACE  &sk SPACE  &lt 8 SPACE  &lt 2 SPACE  &kp LEFT_GUI  &kp RIGHT_WIN  &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             label = "EN";
         };
 
@@ -69,21 +69,23 @@
 &trans  &to 4      &kp LS(HOME)      &kp LC(LS(UP))    &kp LS(END)        &to 5                  &kp HOME  &kp PG_UP  &kp UP_ARROW  &kp PAGE_DOWN  &mo 3    &trans
 &trans  &kp LC(A)  &kp LC(LS(LEFT))  &kp LC(LS(DOWN))  &kp LC(LS(RIGHT))  &to 6                  &kp END   &kp LEFT   &kp DOWN      &kp RIGHT      &kp SQT  &trans
 &trans  &kp LC(Z)  &kp LC(X)         &kp LC(C)         &kp LC(V)          &to 7  &trans  &trans  &kp INS   &kp LBKT   &kp RBKT      &kp BACKSLASH  &kp DEL  &trans
-                                     &trans            &to 2              &to 0  &trans  &trans  &trans    &trans     &trans        &trans
+                                     &trans            &to 2              &to 0  &trans  &trans  &trans    &trans     &trans        &kp C_PP
             >;
 
             label = "S_CUT";
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         N_FN {
             bindings = <
-&kp CAPSLOCK  &none  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                     &kp F10  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN  &kp TILDE
-&trans        &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                        &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK   &trans
-&trans        &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &trans     &trans  &kp F12  &kp F1  &kp F2  &kp F3  &kp C_PAUSE      &trans
-                                   &trans        &kp LALT      &trans        &kp SPACE  &trans  &to 0    &to 1   &trans  &trans
+&kp CAPSLOCK  &none  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                     &kp F10  &kp F7  &kp F8  &kp F9               &kp PRINTSCREEN  &kp TILDE
+&trans        &none  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS                        &kp F11  &kp F4  &kp F5  &kp F6               &kp SCROLLLOCK   &trans
+&trans        &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &trans     &trans  &kp F12  &kp F1  &kp F2  &kp F3               &kp C_PAUSE      &trans
+                                   &trans        &kp LALT      &trans        &kp SPACE  &trans  &to 0    &to 1   &trans  &kp LC(KP_NUMBER_0)
             >;
 
             label = "N_FN";
+            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         SETTING {
