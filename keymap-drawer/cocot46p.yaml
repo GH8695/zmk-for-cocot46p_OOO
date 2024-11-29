@@ -385,7 +385,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   OH:
   - {t: EN, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&S_A_F'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
