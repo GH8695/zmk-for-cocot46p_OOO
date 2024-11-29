@@ -40,10 +40,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: S_CUT}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:gesture-tap-hold$$'}
+  - S_CUT
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: OH}
-  - {t: '$$mdi:keyboard-space$$', h: N_FN}
+  - N_FN
   - $$mdi:apple-keyboard-command$$
   - RIGHT WIN
   - $$mdi:volume-off$$
