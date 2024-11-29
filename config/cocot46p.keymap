@@ -121,10 +121,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &none  &kp HOME  &kp UP    &kp END    &kp K_CALC                  &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp ESC
+&trans     &none  &kp LEFT  &kp DOWN  &kp RIGHT  &to 0                       &kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH     &kp BACKSPACE
+&kp LCTRL  &none  &none     &none     &none      &kp KP_NUM  &trans  &trans  &kp CARET        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp ENTER
+                            &trans    &trans     &none       &to 0   &none   &kp KP_NUMBER_0  &none            &trans           &trans
             >;
 
             label = "NUM";
