@@ -56,6 +56,13 @@
             bindings = <&kp LS(S) &kp LS(E) &kp LS(L) &kp LS(C) &kp LS(E) &kp LS(C) &kp LS(T) &kp SPACE &kp STAR &kp SPACE &kp LS(F) &kp LS(R) &kp LS(O) &kp LS(M) &kp SPACE>;
             label = "S_A_F";
         };
+
+        hh: hh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "HH";
+        };
     };
 
     keymap {
