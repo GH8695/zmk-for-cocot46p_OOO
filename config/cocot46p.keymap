@@ -56,13 +56,6 @@
             bindings = <&kp LS(S) &kp LS(E) &kp LS(L) &kp LS(C) &kp LS(E) &kp LS(C) &kp LS(T) &kp SPACE &kp STAR &kp SPACE &kp LS(F) &kp LS(R) &kp LS(O) &kp LS(M) &kp SPACE>;
             label = "S_A_F";
         };
-
-        D_P_FN: hh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp S &kp U &kp B &kp SPACE &kp T &kp RET &kp TAB &kp D &kp E &kp B &kp U &kp G &kp DOT &kp P &kp R &kp I &kp N &kp T &kp SPACE &kp T &kp H &kp I &kp S &kp W &kp O &kp R &kp K &kp B &kp O &kp O &kp K &kp DOT &kp F &kp U &kp L &kp L &kp N &kp A &kp M &kp E &kp RPAR &kp RET &kp E &kp N &kp D &kp SPACE &kp S &kp U &kp B>;
-            label = "HH";
-        };
     };
 
     keymap {
