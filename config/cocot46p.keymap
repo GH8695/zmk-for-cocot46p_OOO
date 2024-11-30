@@ -56,6 +56,13 @@
             bindings = <&kp LS(S) &kp LS(E) &kp LS(L) &kp LS(C) &kp LS(E) &kp LS(C) &kp LS(T) &kp SPACE &kp STAR &kp SPACE &kp LS(F) &kp LS(R) &kp LS(O) &kp LS(M) &kp SPACE>;
             label = "S_A_F";
         };
+
+        DP_FN: DP_FN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(S) &kp U &kp B &kp SPACE &kp T &kp LPAR &kp RPAR &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LS(D) &kp E &kp B &kp U &kp G &kp DOT &kp LS(P) &kp R &kp I &kp N &kp T &kp SPACE &kp LS(T) &kp H &kp I &kp S &kp LS(W) &kp O &kp R &kp K &kp B &kp O &kp O &kp K &kp DOT &kp LS(F) &kp U &kp L &kp L &kp LS(N) &kp A &kp M &kp E &kp RET &kp LS(E) &kp N &kp D &kp SPACE &kp LS(S) &kp U &kp B &kp RET>;
+            label = "DP_FN";
+        };
     };
 
     keymap {
