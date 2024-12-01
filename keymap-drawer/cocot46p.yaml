@@ -126,8 +126,8 @@ layers:
   - '2'
   - '3'
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - CLCK
+  - KP NLCK
   - F12
   - F1
   - F2
