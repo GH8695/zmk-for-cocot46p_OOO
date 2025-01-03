@@ -133,7 +133,7 @@
 &to 0  &none  &none      &none      &none      &to 0                        &none  &none      &none      &none      &none  &none
 &none  &none  &none      &none      &none      &none                        &none  &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &none
 &none  &none  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none  &trans     &trans     &none  &none      &none      &none      &none  &none
-                         &trans     &none      &to 0  &kp ENTER  &kp ENTER  &to 0  &none      &trans     &trans
+                         &trans     &none      &to 0  &kp ENTER  &kp ENTER  &to 0  &none      &trans     &kp SPACE
             >;
 
             label = "MOUS";
