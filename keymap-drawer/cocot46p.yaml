@@ -50,9 +50,9 @@ layers:
   S_CUT:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: GAME, h: toggle}
-  - Sft+ HOME
-  - Ctl+Sft+ $$mdi:arrow-up-bold$$
-  - Sft+ END
+  - Sft+HOME
+  - Ctl+Sft+$$mdi:arrow-up-bold$$
+  - Sft+END
   - {t: MOUS, h: toggle}
   - HOME
   - PG UP
@@ -61,10 +61,10 @@ layers:
   - SETTING
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ A
-  - Ctl+Sft+ $$mdi:arrow-left-bold$$
-  - Ctl+Sft+ $$mdi:arrow-down-bold$$
-  - Ctl+Sft+ $$mdi:arrow-right-bold$$
+  - Ctl+A
+  - Ctl+Sft+$$mdi:arrow-left-bold$$
+  - Ctl+Sft+$$mdi:arrow-down-bold$$
+  - Ctl+Sft+$$mdi:arrow-right-bold$$
   - {t: NUM, h: toggle}
   - END
   - $$mdi:arrow-left-bold$$
@@ -73,10 +73,10 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ Z
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - MT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,7 +142,7 @@ layers:
   - {t: EN, h: toggle, type: held}
   - {t: S_CUT, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ KP 0
+  - Ctl+KP 0
   SETTING:
   - RGB TOG
   - RGB EFF
@@ -266,9 +266,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -406,7 +406,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Ctl+Sft+ -, s: Ctl+Sft+ _}
+  - {t: Ctl+Sft+-, s: Ctl+Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -425,7 +425,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: EN, h: toggle}
-  - {t: 'Alt+Ctl+ $$mdi:keyboard-return$$', type: enter}
+  - {t: 'Alt+Ctl+$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: EN, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
