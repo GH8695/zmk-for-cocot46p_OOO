@@ -137,6 +137,7 @@
             >;
 
             label = "MOUS";
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         NUM {
